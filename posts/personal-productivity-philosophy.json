@@ -1,0 +1,20 @@
+{
+    "title": "Personal Productivity Philosophy",
+    "cards": [
+        {
+            "title": "new-to-do-app effect",
+            "content": "- *\"this new app will fix everything\"*\n- however, you can utilize this — this initial burst of energy is not without value",
+            "fixedPosition": false
+        },
+        {
+            "title": "project churn rate",
+            "content": "a concept from Cal Newport, essentially asking \"how many projects are you getting done per time unit?\"",
+            "fixedPosition": false
+        },
+        {
+            "title": "restart complexity",
+            "content": "**how much effort, thought and labor does it cost to get the system back up and running once abandoned?**\n\n- common reason of system failure (and not a high threshold required)\n- known it from [📰 Apply Weakest Link Theory to To Productivity Systems](https://www.calnewport.com/blog/2007/07/23/monday-master-class-apply-weakest-link-theory-to-time-management)",
+            "fixedPosition": false
+        }
+    ]
+}

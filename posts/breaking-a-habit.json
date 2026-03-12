@@ -1,0 +1,30 @@
+{
+    "title": "breaking a habit",
+    "cards": [
+        {
+            "title": "fight the bad guys",
+            "content": "framing from *📖 Superbetter*",
+            "fixedPosition": false
+        },
+        {
+            "title": "remember, life may get in the way",
+            "content": "avoid self-hate and all that",
+            "fixedPosition": false
+        },
+        {
+            "title": "engineer (in)conveniences instead of setting rules",
+            "content": "Done right, [minor inconveniences](https://www.lesswrong.com/posts/reitXJgJXFzKpdKyd/beware-trivial-inconveniences) are [powerful]({{ site.baseurl }}{% link _posts/2023-04-23-minor-inconveniences.md %}).\n\nHowever, there is a slippery slope to avoid:\n*Instead of a minor inconvenience, why not a major one? Even better, block the behavior entirely?*\n\nYet, few behaviors in life are purely bad in every context (exceptions like drug abuse require better tools than blogs).\nAnd if you have a legit reason to engage in a \"bad\" behavior once and it's blocked, you are suddenly incentivized to dismantle the prevention mechanism entirely. \n\nWhereas you would just suffer the inconvenience this once, your whole habit change is now in danger. \n\nAvoid that. \nTrust the inconvenience.",
+            "fixedPosition": false
+        },
+        {
+            "title": "fishbowl intervention",
+            "content": "> One of the most effective intervention strategies in alcohol and drug recovery is something called the fish bowl. Patients who pass their drug tests win the opportunity to draw a slip of paper out of a bowl. About half of these slips have a prize listed on them, ranging in value from $1 to $20. Only one slip has a big prize, worth $100. Half of the slips have no prize value at all—instead, they say, “Keep up the good work.” This means that when you reach your hand into the fish bowl, the odds are you’re going to end up with a prize worth $1 or a few kind words. This shouldn’t be motivating—but it is. In one study, 83 percent of patients who had access to fish bowl rewards stayed in treatment for the whole twelve weeks, compared with only 20 percent of patients receiving standard treatment without the promise of reward. \n\n— 📖 The Willpower Instinct",
+            "fixedPosition": false
+        },
+        {
+            "title": "~ to break a habit, make it suck",
+            "content": "— 📖 Atomic Habits",
+            "fixedPosition": false
+        }
+    ]
+}

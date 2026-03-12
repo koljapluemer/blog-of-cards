@@ -211,8 +211,8 @@ color: rgba(201, 107, 60, 0.16);
 
 .post-card__image {
   width: 100%;
-  height: 160px;
-  object-fit: cover;
+  height: auto;
+  object-fit: contain;
   border-radius: 14px;
 }
 
@@ -315,6 +315,7 @@ def build() -> None:
     post_template = env.get_template("post_template.jinja")
 
     posts = load_posts()
+    random.shuffle(posts)
 
     overview_html = overview_template.render(
         site_title="Blog of Cards",
