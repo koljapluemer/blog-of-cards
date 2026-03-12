@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import random
 import re
 import shutil
 from pathlib import Path
@@ -52,17 +53,28 @@ def load_posts() -> list[dict]:
     for path in sorted(POSTS_DIR.glob("*.json")):
         with path.open("r", encoding="utf-8") as f:
             data = json.load(f)
+        raw_cards = data.get("cards", [])
+        fixed_cards = []
+        loose_cards = []
+        for card in raw_cards:
+            if card.get("fixedPosition") is True:
+                fixed_cards.append(card)
+            else:
+                loose_cards.append(card)
+        random.shuffle(loose_cards)
+        ordered_cards = fixed_cards + loose_cards
         cards = []
-        for card in data.get("cards", []):
+        for card in ordered_cards:
             content = card.get("content", "")
             cards.append(
                 {
                     "title": card.get("title", ""),
                     "content": content,
                     "content_html": Markup(render_markdown(content)),
+                    "fixedPosition": card.get("fixedPosition", False),
                 }
             )
-        first_content = data.get("cards", [{}])[0].get("content", "")
+        first_content = ordered_cards[0].get("content", "") if ordered_cards else ""
         posts.append(
             {
                 "slug": path.stem,
@@ -70,7 +82,7 @@ def load_posts() -> list[dict]:
                 "cards": cards,
                 "card_count": len(cards),
                 "excerpt": excerpt(first_content),
-                "first_image": first_image(data.get("cards", [])),
+                "first_image": first_image(ordered_cards),
             }
         )
     return posts

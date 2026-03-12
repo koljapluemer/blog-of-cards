@@ -141,6 +141,12 @@ for idx, card in enumerate(cards):
             value=card.get("title", ""),
             key=card_title_key,
         )
+        card["fixedPosition"] = st.checkbox(
+            "Fixed position",
+            value=bool(card.get("fixedPosition", False)),
+            key=f"{active_slug}_card_fixed_{idx}",
+            help="Keep this card pinned at the top in its current order.",
+        )
         card["content"] = st.text_area(
             "Card content (Markdown)",
             value=card.get("content", ""),
