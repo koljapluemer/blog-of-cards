@@ -1,5 +1,5 @@
 {
-    "title": "Everything I know about writing well",
+    "title": "everything I know about writing well",
     "cards": [
         {
             "title": "~ 1 paragraph should represent 1 core idea",
@@ -12,6 +12,10 @@
         {
             "title": "~ don't write about topic, pose a problem",
             "content": "— 1981 📖 Style﹕ Lessons in Clarity and Grace"
+        },
+        {
+            "title": "~ use emotion",
+            "content": "— [How to Write a Mini-Essay](https://www.youtube.com/watch?v=eCaOSNxwCsw)"
         }
     ]
 }
