@@ -37,6 +37,16 @@ def excerpt(text: str, limit: int = 140) -> str:
     return clean[:cutoff].rstrip() + "…"
 
 
+def first_image(cards: list[dict]) -> str | None:
+    pattern = re.compile(r"!\[[^\]]*\]\(([^)]+)\)")
+    for card in cards:
+        content = card.get("content", "")
+        match = pattern.search(content)
+        if match:
+            return match.group(1).strip()
+    return None
+
+
 def load_posts() -> list[dict]:
     posts: list[dict] = []
     for path in sorted(POSTS_DIR.glob("*.json")):
@@ -60,6 +70,7 @@ def load_posts() -> list[dict]:
                 "cards": cards,
                 "card_count": len(cards),
                 "excerpt": excerpt(first_content),
+                "first_image": first_image(data.get("cards", [])),
             }
         )
     return posts
@@ -126,6 +137,7 @@ a {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 24px;
+  grid-auto-flow: dense;
 }
 
 .post-card {
@@ -137,6 +149,16 @@ a {
   transition: transform 0.25s ease, box-shadow 0.25s ease;
   position: relative;
   overflow: hidden;
+}
+
+.post-card--wide {
+  grid-row: span 2;
+}
+
+@media (max-width: 700px) {
+  .post-card--wide {
+    grid-row: span 1;
+  }
 }
 
 .post-card::after {
@@ -168,6 +190,13 @@ a {
   font-family: 'Fraunces', serif;
   margin: 0;
   font-size: 1.5rem;
+}
+
+.post-card__image {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 14px;
 }
 
 .post-card__excerpt {

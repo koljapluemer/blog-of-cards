@@ -10,12 +10,18 @@
     <div class="site">
       <main class="post-grid">
         {% for post in posts %}
-        <article class="post-card">
+        <article class="post-card{% if post.first_image %} post-card--wide{% endif %}">
           <a class="post-card__link" href="posts/{{ post.slug }}.html">
             <div class="post-card__content">
+              {% if post.first_image %}
+              <img
+                src="{{ post.first_image }}"
+                alt=""
+                class="post-card__image"
+                loading="lazy"
+              />
+              {% endif %}
               <h2 class="post-card__title">{{ post.title }}</h2>
-              <p class="post-card__excerpt">{{ post.excerpt }}</p>
-              <div class="post-card__meta">{{ post.card_count }} cards</div>
             </div>
           </a>
         </article>
