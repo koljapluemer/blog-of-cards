@@ -3,7 +3,8 @@
     "cards": [
         {
             "title": "remember: most startups fail",
-            "content": ""
+            "content": "",
+            "fixedPosition": false
         }
     ]
 }

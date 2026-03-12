@@ -15,6 +15,26 @@
             "title": "restart complexity",
             "content": "**how much effort, thought and labor does it cost to get the system back up and running once abandoned?**\n\n- common reason of system failure (and not a high threshold required)\n- known it from [📰 Apply Weakest Link Theory to To Productivity Systems](https://www.calnewport.com/blog/2007/07/23/monday-master-class-apply-weakest-link-theory-to-time-management)",
             "fixedPosition": false
+        },
+        {
+            "title": "just do it",
+            "content": "> So stop thinking about it. Stop dreaming about it. Stop researching every aspect of it and reading all about it and debating the pros and cons of it … Start doing it.\n\n— 📖 Discipline Equals Freedom",
+            "fixedPosition": false
+        },
+        {
+            "title": "slight edge approach",
+            "content": "",
+            "fixedPosition": false
+        },
+        {
+            "title": "> You can step back onto the path of mastery anytime you want.",
+            "content": "— The Slight Edge",
+            "fixedPosition": false
+        },
+        {
+            "title": "jump point",
+            "content": "- **when doing something (/starting something), there comes a critical point where you have to \"jump\", and any strategy or tactic that is not super basic will not help you**\n- *as in:* drawing a complex flow chart with your gym plan for the next 5 months will not help you in that very moment where you have have to stop Netflix and get up\n\n![sketch of man hesitating to jump from a cliff](../media/img/personal-productivity-philosophy/jump.webp)\n\n- concept by James Lim",
+            "fixedPosition": false
         }
     ]
 }

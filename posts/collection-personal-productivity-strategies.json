@@ -1,0 +1,20 @@
+{
+    "title": "collection: personal productivity strategies",
+    "cards": [
+        {
+            "title": " block method",
+            "content": "1. Choose a task from list\n2. (briefly) picture reaching the finish line\n3. make a **block** (25 minutes focused, timed, uninterrupted work)\n4. mark on scoresheet\n5. *consider* break\n6. repeat & improve\n\n— 📖 How to Do Things",
+            "fixedPosition": false
+        },
+        {
+            "title": "red carpeting",
+            "content": "> Clear your workspace and lay out any tools you'll need. Make a clean list of the steps you're going to take, and put it in the center of your desk [...] Remove as much psychological resistance to the task as possible [...] I call this **\"red-carpeting\"** the task. You arrange the environment so that it feels like there's a red carpet leading right to the doing of the task \n\n— 📖 How to Do Things\n",
+            "fixedPosition": false
+        },
+        {
+            "title": "assembly-line method",
+            "content": "**increase output by automating the automateable parts of your process**\n\n- an idea from *📖 Get Better At Anything*",
+            "fixedPosition": false
+        }
+    ]
+}
