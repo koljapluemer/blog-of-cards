@@ -1,5 +1,7 @@
 # Blog of Cards
 
+![](/doc/screenshot.webp)
+
 Minimal static blog generator that renders JSON posts into a card-based site.
 
 **What’s here**
