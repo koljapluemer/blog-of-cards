@@ -1,12 +1,12 @@
 from __future__ import annotations
 
-import html
 import json
 import re
 import shutil
 from pathlib import Path
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
+from markdown import markdown
 from markupsafe import Markup
 
 ROOT = Path(__file__).parent
@@ -15,53 +15,16 @@ SITE_DIR = ROOT / "_site"
 POSTS_OUT_DIR = SITE_DIR / "posts"
 
 
-def inline_format(text: str) -> str:
-    escaped = html.escape(text)
-    return re.sub(r"\*(.+?)\*", r"<em>\1</em>", escaped)
-
-
 def render_markdown(text: str) -> str:
-    if not text:
-        return ""
-    lines = text.splitlines()
-    blocks: list[str] = []
-    paragraph_lines: list[str] = []
-
-    def flush_paragraph() -> None:
-        if not paragraph_lines:
-            return
-        paragraph = " ".join(paragraph_lines).strip()
-        if paragraph:
-            blocks.append(f"<p>{inline_format(paragraph)}</p>")
-        paragraph_lines.clear()
-
-    for line in lines:
-        stripped = line.strip()
-        if not stripped:
-            flush_paragraph()
-            continue
-        if stripped.startswith("> "):
-            flush_paragraph()
-            quote = inline_format(stripped[2:].strip())
-            blocks.append(f"<blockquote><p>{quote}</p></blockquote>")
-        else:
-            paragraph_lines.append(stripped)
-
-    flush_paragraph()
-    return "\n".join(blocks)
+    return markdown(text or "", extensions=["extra", "sane_lists"])
 
 
 def strip_markdown(text: str) -> str:
     if not text:
         return ""
-    cleaned_lines = []
-    for line in text.splitlines():
-        line = line.strip()
-        if line.startswith("> "):
-            line = line[2:]
-        line = line.replace("*", "")
-        cleaned_lines.append(line)
-    return re.sub(r"\s+", " ", " ".join(cleaned_lines)).strip()
+    html_text = markdown(text, extensions=["extra", "sane_lists"])
+    no_tags = re.sub(r"<[^>]+>", " ", html_text)
+    return re.sub(r"\s+", " ", no_tags).strip()
 
 
 def excerpt(text: str, limit: int = 140) -> str:
