@@ -2,12 +2,13 @@
 name = "blog-of-cards"
 version = "0.1.0"
 description = "Card-based blog static site generator"
-requires-python = ">=3.11"
+requires-python = ">=3.11,<3.13"
 dependencies = [
   "Jinja2==3.1.4",
   "Markdown==3.6",
+  "Pillow==10.3.0",
   "streamlit==1.33.0",
 ]
 
-[tool.uv]
-dev-dependencies = []
+[dependency-groups]
+dev = []

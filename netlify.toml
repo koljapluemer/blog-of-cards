@@ -1,5 +1,5 @@
 [build]
-  command = "python3 -m pip install uv && uv sync --python 3.11 --no-dev && uv run python build.py"
+  command = "python -m pip install -U uv && uv sync --no-dev --python 3.11 && uv run python build.py"
   publish = "_site"
 
 [build.environment]

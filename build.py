@@ -227,6 +227,12 @@ a {
   margin-bottom: 0;
 }
 
+.card__content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 blockquote {
   margin: 0;
   padding: 12px 16px;
