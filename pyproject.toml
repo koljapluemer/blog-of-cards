@@ -1,0 +1,13 @@
+[project]
+name = "blog-of-cards"
+version = "0.1.0"
+description = "Card-based blog static site generator"
+requires-python = ">=3.11"
+dependencies = [
+  "Jinja2==3.1.4",
+  "Markdown==3.6",
+  "streamlit==1.33.0",
+]
+
+[tool.uv]
+dev-dependencies = []
