@@ -182,9 +182,14 @@ a {
 .post-card__content {
   position: relative;
   z-index: 1;
-  display: grid;
+  display: flex;
+  flex-direction: column;
   gap: 12px;
 }
+
+hr {
+color: rgba(201, 107, 60, 0.16);
+    }
 
 .post-card__title {
   font-family: 'Fraunces', serif;
@@ -248,7 +253,6 @@ a {
 }
 
 .card__content p {
-  margin: 0 0 12px;
   line-height: 1.6;
 }
 
