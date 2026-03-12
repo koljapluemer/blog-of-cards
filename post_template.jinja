@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{ post.title }} · {{ site_title }}</title>
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <div class="site">
+      <header class="post-header">
+        <a class="post-header__back" href="../index.html">← Back to overview</a>
+        <h1 class="post-header__title">{{ post.title }}</h1>
+      </header>
+
+      <main class="card-grid">
+        {% for card in post.cards %}
+        <section class="card">
+          {% if card.title %}
+          <h3>{{ card.title }}</h3>
+          {% endif %}
+          <div class="card__content">{{ card.content_html }}</div>
+        </section>
+        {% endfor %}
+      </main>
+
+    </div>
+  </body>
+</html>

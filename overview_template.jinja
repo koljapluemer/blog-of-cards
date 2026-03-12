@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{ site_title }}</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="site">
+      <main class="post-grid">
+        {% for post in posts %}
+        <article class="post-card">
+          <a class="post-card__link" href="posts/{{ post.slug }}.html">
+            <div class="post-card__content">
+              <h2 class="post-card__title">{{ post.title }}</h2>
+              <p class="post-card__excerpt">{{ post.excerpt }}</p>
+              <div class="post-card__meta">{{ post.card_count }} cards</div>
+            </div>
+          </a>
+        </article>
+        {% endfor %}
+      </main>
+    </div>
+  </body>
+</html>
