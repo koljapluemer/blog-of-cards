@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json
 import re
+import uuid
 from pathlib import Path
 
 import streamlit as st
@@ -61,9 +62,39 @@ def handle_delete_post() -> None:
     queue_active_slug(next(iter(posts), None))
 
 
-def handle_reload_posts() -> None:
-    st.session_state["posts"] = load_posts()
-    queue_active_slug(st.session_state.get("active_slug_select"))
+def card_key(active_slug: str, card_id: str, field: str) -> str:
+    return f"{active_slug}_card_{card_id}_{field}"
+
+
+def ensure_post_state(active_slug: str, post: dict) -> None:
+    title_key = f"title_{active_slug}"
+    if title_key not in st.session_state:
+        st.session_state[title_key] = post.get("title", "")
+    cards = post.setdefault("cards", [])
+    for card in cards:
+        if "id" not in card:
+            card["id"] = uuid.uuid4().hex
+        for field, default in (
+            ("title", card.get("title", "")),
+            ("content", card.get("content", "")),
+            ("fixed", bool(card.get("fixedPosition", False))),
+        ):
+            key = card_key(active_slug, card["id"], field)
+            if key not in st.session_state:
+                st.session_state[key] = default
+
+
+def load_post_into_state(active_slug: str, post: dict) -> None:
+    st.session_state[f"title_{active_slug}"] = post.get("title", "")
+    cards = post.setdefault("cards", [])
+    for card in cards:
+        if "id" not in card:
+            card["id"] = uuid.uuid4().hex
+        st.session_state[card_key(active_slug, card["id"], "title")] = card.get("title", "")
+        st.session_state[card_key(active_slug, card["id"], "content")] = card.get("content", "")
+        st.session_state[card_key(active_slug, card["id"], "fixed")] = bool(
+            card.get("fixedPosition", False)
+        )
 
 
 st.set_page_config(page_title="Blog of Cards Editor", layout="wide")
@@ -126,49 +157,51 @@ if active_slug is None:
 post = posts[active_slug]
 
 st.title("Post editor")
-post["title"] = st.text_input("Post title", value=post.get("title", ""), key=f"title_{active_slug}")
 
 cards = post.setdefault("cards", [])
+for card in cards:
+    if "id" not in card:
+        card["id"] = uuid.uuid4().hex
+ensure_post_state(active_slug, post)
+
+st.text_input("Post title", key=f"title_{active_slug}")
 
 st.subheader("Cards")
 
 for idx, card in enumerate(cards):
-    card_title_key = f"{active_slug}_card_title_{idx}"
-    card_content_key = f"{active_slug}_card_content_{idx}"
+    card_id = card["id"]
     with st.expander(f"Card {idx + 1}", expanded=True):
-        card["title"] = st.text_input(
+        card_title_key = card_key(active_slug, card_id, "title")
+        card_content_key = card_key(active_slug, card_id, "content")
+        st.text_input(
             "Card title (optional)",
-            value=card.get("title", ""),
             key=card_title_key,
         )
-        card["fixedPosition"] = st.checkbox(
+        st.checkbox(
             "Fixed position",
-            value=bool(card.get("fixedPosition", False)),
-            key=f"{active_slug}_card_fixed_{idx}",
+            key=card_key(active_slug, card_id, "fixed"),
             help="Keep this card pinned at the top in its current order.",
         )
-        card["content"] = st.text_area(
+        st.text_area(
             "Card content (Markdown)",
-            value=card.get("content", ""),
             key=card_content_key,
             height=140,
         )
-
         col1, col2, col3 = st.columns(3)
         with col1:
-            if st.button("Move up", key=f"{active_slug}_move_up_{idx}", disabled=idx == 0):
+            if st.button("Move up", key=f"{active_slug}_move_up_{card_id}", disabled=idx == 0):
                 cards[idx - 1], cards[idx] = cards[idx], cards[idx - 1]
                 st.experimental_rerun()
         with col2:
             if st.button(
                 "Move down",
-                key=f"{active_slug}_move_down_{idx}",
+                key=f"{active_slug}_move_down_{card_id}",
                 disabled=idx == len(cards) - 1,
             ):
                 cards[idx + 1], cards[idx] = cards[idx], cards[idx + 1]
                 st.experimental_rerun()
         with col3:
-            if st.button("Delete card", key=f"{active_slug}_delete_{idx}"):
+            if st.button("Delete card", key=f"{active_slug}_delete_{card_id}"):
                 cards.pop(idx)
                 st.experimental_rerun()
 
@@ -177,15 +210,35 @@ st.divider()
 col_a, col_b, col_c = st.columns([1, 1, 2])
 with col_a:
     if st.button("Add card"):
-        cards.append({"title": "", "content": ""})
+        new_id = uuid.uuid4().hex
+        cards.append({"id": new_id, "title": "", "content": ""})
+        st.session_state[card_key(active_slug, new_id, "title")] = ""
+        st.session_state[card_key(active_slug, new_id, "content")] = ""
+        st.session_state[card_key(active_slug, new_id, "fixed")] = False
         st.experimental_rerun()
 with col_b:
     if st.button("Save post"):
+        post["title"] = st.session_state.get(f"title_{active_slug}", post.get("title", ""))
+        for card in cards:
+            card_id = card["id"]
+            card["title"] = st.session_state.get(card_key(active_slug, card_id, "title"), "")
+            card["fixedPosition"] = bool(
+                st.session_state.get(card_key(active_slug, card_id, "fixed"), False)
+            )
+            card["content"] = st.session_state.get(
+                card_key(active_slug, card_id, "content"), ""
+            )
         save_post(active_slug, post)
         st.success("Saved.")
 with col_c:
-    if st.button("Reload from disk", on_click=handle_reload_posts):
-        pass
+    if st.button("Reload from disk"):
+        post = load_posts().get(active_slug)
+        if post is None:
+            st.warning("Post not found on disk.")
+        else:
+            posts[active_slug] = post
+            load_post_into_state(active_slug, post)
+        st.experimental_rerun()
 
 st.divider()
 st.subheader("Images")

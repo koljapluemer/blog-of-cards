@@ -1,9 +1,28 @@
 {
-    "title": "lots of terms meaning \"learning with a computer\"",
+    "title": "lots of terms meaning \"learning with a computer\" or similar",
     "cards": [
         {
             "title": "computer-assisted instruction",
             "content": "- **Any kind of learning that is enhanced by a computer**\n",
+            "fixedPosition": false,
+            "id": "db0738a9d6504a2d833075652099a404"
+        },
+        {
+            "id": "dccf4e7288344dd48231524151b3555a",
+            "title": "digital game-based vocabulary learning",
+            "content": "",
+            "fixedPosition": false
+        },
+        {
+            "id": "60ca5c124b614f4093862b8dfbdb0e4b",
+            "title": "teaching machine",
+            "content": "Skinner built one",
+            "fixedPosition": false
+        },
+        {
+            "id": "2f78c1114c4a467b8a14bc9e3cf951fb",
+            "title": "computer-mediated communication",
+            "content": "- subset of CALL",
             "fixedPosition": false
         }
     ]

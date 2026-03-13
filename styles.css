@@ -183,6 +183,7 @@ hr {
 
 .card__content img {
   max-width: 100%;
+  max-height: 50vh;
   height: auto;
   display: block;
 }

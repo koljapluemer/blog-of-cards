@@ -4,36 +4,55 @@
         {
             "title": "new-to-do-app effect",
             "content": "- *\"this new app will fix everything\"*\n- however, you can utilize this — this initial burst of energy is not without value",
-            "fixedPosition": false
+            "fixedPosition": false,
+            "id": "e0ac8d3951184c559023ed9c37df8c06"
         },
         {
             "title": "project churn rate",
             "content": "a concept from Cal Newport, essentially asking \"how many projects are you getting done per time unit?\"",
-            "fixedPosition": false
+            "fixedPosition": false,
+            "id": "3c61c21eecbd4afa8e3819c7087dabff"
         },
         {
             "title": "restart complexity",
             "content": "**how much effort, thought and labor does it cost to get the system back up and running once abandoned?**\n\n- common reason of system failure (and not a high threshold required)\n- known it from [📰 Apply Weakest Link Theory to To Productivity Systems](https://www.calnewport.com/blog/2007/07/23/monday-master-class-apply-weakest-link-theory-to-time-management)",
-            "fixedPosition": false
+            "fixedPosition": false,
+            "id": "45b41c4a4b23444d94ca5223d4da54b9"
         },
         {
             "title": "just do it",
             "content": "> So stop thinking about it. Stop dreaming about it. Stop researching every aspect of it and reading all about it and debating the pros and cons of it … Start doing it.\n\n— 📖 Discipline Equals Freedom",
-            "fixedPosition": false
+            "fixedPosition": false,
+            "id": "d5987758ed1a459e91fc9cd4e267a6a3"
         },
         {
             "title": "slight edge approach",
             "content": "",
-            "fixedPosition": false
+            "fixedPosition": false,
+            "id": "0ced6bed4c1d4a0c98f28492496c9b6a"
         },
         {
             "title": "> You can step back onto the path of mastery anytime you want.",
             "content": "— The Slight Edge",
-            "fixedPosition": false
+            "fixedPosition": false,
+            "id": "9a39f3a34a6d43ca9a40c5089a2af408"
         },
         {
             "title": "jump point",
             "content": "- **when doing something (/starting something), there comes a critical point where you have to \"jump\", and any strategy or tactic that is not super basic will not help you**\n- *as in:* drawing a complex flow chart with your gym plan for the next 5 months will not help you in that very moment where you have have to stop Netflix and get up\n\n![sketch of man hesitating to jump from a cliff](../media/img/personal-productivity-philosophy/jump.webp)\n\n- concept by James Lim",
+            "fixedPosition": false,
+            "id": "b969c20743884e33a52dc7086a8d3d63"
+        },
+        {
+            "title": "~ we are wildly optimistic in predicting how productive we will be in the near future",
+            "content": "— 2011 📖 The Willpower Instinct",
+            "fixedPosition": false,
+            "id": "1927511db56d4120a9e746cb8fdf316d"
+        },
+        {
+            "id": "f345fc00b1f348d9a25fd6a73908450f",
+            "title": "gumption trap",
+            "content": "situation that kills your motivation (/flow) while working towards a goal",
             "fixedPosition": false
         }
     ]
