@@ -1,0 +1,23 @@
+{
+    "title": "creating a habit",
+    "cards": [
+        {
+            "id": "0ccfadc1d3fe41d9acb46a29b9d3339f",
+            "title": "~ habits depend on neither implicit nor explicit goals",
+            "content": "— 📖 Making Habits, Breaking Habits",
+            "fixedPosition": false
+        },
+        {
+            "id": "385aaaa53d7d4bee8a8600610405bce1",
+            "title": "~ implementation intention works",
+            "content": "— 📝Implementation Intentions and Goal Achievement﹕ A Meta‐analysis of Effects and Processes",
+            "fixedPosition": false
+        },
+        {
+            "id": "336762d5706b484d9bf49aefe2f6a92a",
+            "title": "~ don't miss twice",
+            "content": "> This is why the most important thing is not to prevent mistakes altogether, but to avoid making a mistake twice in a row.\n\n— James Clear",
+            "fixedPosition": false
+        }
+    ]
+}

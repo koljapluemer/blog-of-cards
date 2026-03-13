@@ -1,0 +1,23 @@
+{
+    "title": "how to build software",
+    "cards": [
+        {
+            "id": "43fae0f943824bbdb2740667aee4d705",
+            "title": "Big Design Up Front",
+            "content": "paradigm where the entire design is done upfront",
+            "fixedPosition": false
+        },
+        {
+            "id": "10a29b8073284f42b6530605c33471a0",
+            "title": "antifragility",
+            "content": "- *how much something goes **stronger** due to time passed, mishaps, attacks*\n\n![](../media/img/how-to-build-software/hydra.webp)",
+            "fixedPosition": false
+        },
+        {
+            "id": "311994c400874610ac3a9d5ca39e1aab",
+            "title": "Command Query Separation",
+            "content": "- **means**:\n\t- do not have getters that also set something\n\t- do not have setters that also get something\n\n![](../media/img/how-to-build-software/cq.webp)",
+            "fixedPosition": false
+        }
+    ]
+}

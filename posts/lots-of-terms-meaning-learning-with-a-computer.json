@@ -24,6 +24,42 @@
             "title": "computer-mediated communication",
             "content": "- subset of CALL",
             "fixedPosition": false
+        },
+        {
+            "id": "4c4106ee1b55435bb3b29213e6537d3e",
+            "title": "computer-assisted language learning",
+            "content": "",
+            "fixedPosition": false
+        },
+        {
+            "id": "33cacd6114f946d2830a405b352257fa",
+            "title": "programmed instruction",
+            "content": "",
+            "fixedPosition": false
+        },
+        {
+            "id": "91892db27af04671934f082dd02fc0c6",
+            "title": "e-learning",
+            "content": "",
+            "fixedPosition": false
+        },
+        {
+            "id": "bee2240b41c041acb97ab8c442c5e9db",
+            "title": "serious games",
+            "content": "",
+            "fixedPosition": false
+        },
+        {
+            "id": "c2fa737b65d140048d073b9975b634f6",
+            "title": "computer-assisted learning of communication",
+            "content": "",
+            "fixedPosition": false
+        },
+        {
+            "id": "6830fc9ad44f4038a00df322eda2922f",
+            "title": "participatory simulation",
+            "content": "simulation where players take over the role of agents in the system",
+            "fixedPosition": false
         }
     ]
 }

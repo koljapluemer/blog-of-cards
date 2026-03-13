@@ -54,6 +54,36 @@
             "title": "gumption trap",
             "content": "situation that kills your motivation (/flow) while working towards a goal",
             "fixedPosition": false
+        },
+        {
+            "id": "e8e85c5572284fd6a0074a3216978b19",
+            "title": "monk mode",
+            "content": "",
+            "fixedPosition": false
+        },
+        {
+            "id": "473a8893155e402aaa21bdc8d1a181f8",
+            "title": " dopamine detox",
+            "content": "",
+            "fixedPosition": false
+        },
+        {
+            "id": "b13687b2705149dbae430af81f19053e",
+            "title": "> To initiate action, doing must be easier than thinking",
+            "content": "— 📖 Hooked: How to Build Habit-Forming Products",
+            "fixedPosition": false
+        },
+        {
+            "id": "ca1fb76e5d764cc189e584acdd7ee9e9",
+            "title": "~ attraction towards the mindless is as old as time",
+            "content": "> Learning to live, then as now, is hard work.\n\n> the depth I preach, both in work and personal affairs, is not a default mode subverted only recently by new technology\n\n— [📰 Arnold Bennett’s Fight Against Steampunk Social Media](https://www.calnewport.com/blog/2017/11/03/arnold-bennetts-fight-against-steampunk-social-media/)",
+            "fixedPosition": false
+        },
+        {
+            "id": "bc21fbdcab03434d97ca8f2238724eab",
+            "title": "~ to guard your focus, sweep for mines",
+            "content": "> Sweep for mines. Turn off your phone, shut down your e-mail, and exit your Internet browser. Your most important work deserves 100 percent of your attention. \n\n— 📖 The One Thing",
+            "fixedPosition": false
         }
     ]
 }

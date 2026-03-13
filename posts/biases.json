@@ -1,0 +1,17 @@
+{
+    "title": "noteworthy biases and fallacies",
+    "cards": [
+        {
+            "id": "53647b47a6d946c2b15a6b44637157bd",
+            "title": "selection bias",
+            "content": "![](../media/img/biases/sel.webp)",
+            "fixedPosition": false
+        },
+        {
+            "id": "a34ad33230ab44f1aaed9630f782550e",
+            "title": "planning fallacy",
+            "content": "people can't plan, at least not publicly",
+            "fixedPosition": false
+        }
+    ]
+}

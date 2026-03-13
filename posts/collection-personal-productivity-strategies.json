@@ -4,16 +4,37 @@
         {
             "title": " block method",
             "content": "1. Choose a task from list\n2. (briefly) picture reaching the finish line\n3. make a **block** (25 minutes focused, timed, uninterrupted work)\n4. mark on scoresheet\n5. *consider* break\n6. repeat & improve\n\n— 📖 How to Do Things",
-            "fixedPosition": false
+            "fixedPosition": false,
+            "id": "c99f53a70c0c4db4b1332042de80b747"
         },
         {
             "title": "red carpeting",
             "content": "> Clear your workspace and lay out any tools you'll need. Make a clean list of the steps you're going to take, and put it in the center of your desk [...] Remove as much psychological resistance to the task as possible [...] I call this **\"red-carpeting\"** the task. You arrange the environment so that it feels like there's a red carpet leading right to the doing of the task \n\n— 📖 How to Do Things\n",
-            "fixedPosition": false
+            "fixedPosition": false,
+            "id": "ce2bd7f4689e4787a4b2f83f2f3a86b7"
         },
         {
             "title": "assembly-line method",
             "content": "**increase output by automating the automateable parts of your process**\n\n- an idea from *📖 Get Better At Anything*",
+            "fixedPosition": false,
+            "id": "ee98307843b74ceba60c1d2823b173a9"
+        },
+        {
+            "id": "9486f0522f8344b592082534bf5c5350",
+            "title": "paperclip glass",
+            "content": "1. define a core activity (e.g. *do a sales call*, *write a page*)\n2. every time you do the thing, put one paperclip (or coin, or...) in a glass on your desk",
+            "fixedPosition": false
+        },
+        {
+            "id": "4752a1d38d7a47f68da1df4dfa4cd28b",
+            "title": "ten-minute rule",
+            "content": "> “ten-minute rule.” If I find myself wanting to check my phone as a pacification device when I can’t think of anything better to do, I tell myself it’s fine to give in, but not right now. I have to wait just ten minutes.\n\n— 📖 Indistractable",
+            "fixedPosition": false
+        },
+        {
+            "id": "d9093f1400c2416a9d618819e04ae10d",
+            "title": "progressive pomodoro",
+            "content": "\n1. pick a pomo length that's fitting to your moti level, may be 5 minutes\n2. after the pomo block, rate your focus\n3. ..break or extend\n4. (but adapt the block length)\n\n[source](https://www.youtube.com/watch?v=qtoysJSQTn8)",
             "fixedPosition": false
         }
     ]
