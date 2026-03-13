@@ -26,7 +26,7 @@ body {
 
 a {
   color: inherit;
-  text-decoration: none;
+  text-decoration:dashed 1px --ink;
 }
 
 .site {
@@ -196,8 +196,8 @@ blockquote {
   border-radius: 12px;
 }
 
-.footer {
+footer {
   margin-top: 48px;
-  color: var(--muted);
   font-size: 0.9rem;
+  text-align: center;
 }

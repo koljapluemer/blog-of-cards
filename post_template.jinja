@@ -1,29 +1,44 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{{ post.title }} · {{ site_title }}</title>
-    <link rel="stylesheet" href="../styles.css" />
-  </head>
-  <body>
-    <div class="site">
-      <header class="post-header">
-        <a class="post-header__back" href="../index.html">← Back to overview</a>
-        <h1 class="post-header__title">{{ post.title }}</h1>
-      </header>
 
-      <main class="card-grid">
-        {% for card in post.cards %}
-        <section class="card">
-          {% if card.title %}
-          <h3>{{ card.title }}</h3>
-          {% endif %}
-          <div class="card__content">{{ card.content_html }}</div>
-        </section>
-        {% endfor %}
-      </main>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{ post.title }} · {{ site_title }}</title>
+  <link rel="stylesheet" href="../styles.css" />
+</head>
 
-    </div>
-  </body>
+<body class="site">
+  <header class="post-header">
+    <a class="post-header__back" href="../index.html">← Back to overview</a>
+    <h1 class="post-header__title">{{ post.title }}</h1>
+  </header>
+
+  <main class="card-grid">
+    {% for card in post.cards %}
+    <section class="card">
+      {% if card.title %}
+      <h3>{{ card.title }}</h3>
+      {% endif %}
+      <div class="card__content">{{ card.content_html }}</div>
+    </section>
+    {% endfor %}
+  </main>
+
+  <footer>
+    <p>
+      By <a href="https://koljasam.com/" target="_blank">Kolja Sam</a>. If you want to support my work, you can
+      <a href="https://ko-fi.com/S6S81CWUVD" target="_blank" rel="noopener" class="kofi-btn">
+        buy me a coffee
+      </a>.
+    </p>
+  </footer>
+</body>
+<script>
+  window.goatcounter = {
+    path: function (p) { return location.host + p }
+  }
+</script>
+<script data-goatcounter="https://koljasam.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
 </html>
