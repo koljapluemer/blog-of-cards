@@ -44,5 +44,5 @@ python -m pip install -U uv && uv sync --no-dev --python 3.11 && uv run python b
 ## get last edited posts as JSON dict
 
 ```
-python3 -c 'import json,pathlib;base="https://cards.koljasam.com";posts=[];[posts.append((p.stat().st_mtime,json.loads(p.read_text("utf-8")).get("title","Untitled"),p.stem)) for p in pathlib.Path("posts").glob("*.json")];posts.sort(reverse=True);print(json.dumps({t:f"{base}/posts/{s}.html" for _,t,s in posts[:5]},ensure_ascii=False))'
+python3 -c 'import json,pathlib;base="https://cards.koljasam.com";posts=[];[posts.append((p.stat().st_mtime,json.loads(p.read_text("utf-8")).get("title","Untitled"),p.stem)) for p in pathlib.Path("posts").glob("*.json")];posts.sort(reverse=True);print(json.dumps({t:f"{base}/posts/{s}.html" for _,t,s in posts[:10]},ensure_ascii=False))'
 ```

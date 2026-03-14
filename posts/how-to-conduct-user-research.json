@@ -3,13 +3,15 @@
     "cards": [
         {
             "title": "~ in user research, talking to the wrong people is the worst thing — you learn nothing",
-            "content": "> You can learn valuable things by asking the right people the wrong questions. If you’re talking to the wrong people, it doesn’t matter what you ask.\n\n— ",
-            "fixedPosition": false
+            "content": "> You can learn valuable things by asking the right people the wrong questions. If you’re talking to the wrong people, it doesn’t matter what you ask.\n\n— Just Enough Research",
+            "fixedPosition": false,
+            "id": "19f1950cc85845eda29dbc1287bcfd81"
         },
         {
             "title": "~ use Third-Party studies to understand consumer and user trends",
             "content": "— Just Enough Research",
-            "fixedPosition": false
+            "fixedPosition": false,
+            "id": "253cee2492a14d0892882496e1e6513b"
         }
     ]
 }
