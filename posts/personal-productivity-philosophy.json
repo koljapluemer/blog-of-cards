@@ -138,6 +138,12 @@
             "title": "remember the hockey stick",
             "content": "*goes slow at the beginning, then faster and faster* (as long as it's actually exponential, which not all things are)",
             "fixedPosition": false
+        },
+        {
+            "id": "9c45743efc37422f89827e7b33c312ce",
+            "title": "~ working 10% more produces twice the output",
+            "content": "> Given two people of approximately the same ability and one person who works ten percent more than the other, the latter will more than twice outproduce the former\n\n— [You and Your Research](https://www.cs.virginia.edu/~robins/YouAndYourResearch.html)",
+            "fixedPosition": false
         }
     ]
 }

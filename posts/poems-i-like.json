@@ -1,0 +1,17 @@
+{
+    "title": "poems I like",
+    "cards": [
+        {
+            "id": "392787ca0d7742aca46572fda4d81702",
+            "title": "Sonnet—﻿To Science",
+            "content": "Science! true daughter of Old Time thou art!\n   Who alterest all things with thy peering eyes.\nWhy preyest thou thus upon the poet’s heart,\n   Vulture, whose wings are dull realities?\nHow should he love thee? or how deem thee wise,\n   Who wouldst not leave him in his wandering\nTo seek for treasure in the jewelled skies,\n   Albeit he soared with an undaunted wing?\nHast thou not dragged Diana from her car,\n   And driven the Hamadryad from the wood\nTo seek a shelter in some happier star?\n   Hast thou not torn the Naiad from her flood,\nThe Elfin from the green grass, and from me\nThe summer dream beneath the tamarind tree? ",
+            "fixedPosition": false
+        },
+        {
+            "id": "bbcde95ad17c4ff6a85ab74ea2b34d04",
+            "title": "Der Radwechsel",
+            "content": "Ich sitze am Straßenhang.\nDer Fahrer wechselt das Rad.\nIch bin nicht gern, wo ich herkomme.\nIch bin nicht gern, wo ich hinfahre.\nWarum sehe ich den Radwechsel\nmit Ungeduld?",
+            "fixedPosition": false
+        }
+    ]
+}

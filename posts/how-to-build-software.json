@@ -48,6 +48,12 @@
             "title": "dependency injection",
             "content": "if a class needs another class to work, pass an instance of that class into the constructor instead of importing the dependency from the class itself",
             "fixedPosition": false
+        },
+        {
+            "id": "36b03a8a47e241b38b5ee20dfad2acb6",
+            "title": "AM⧸FM dilemma",
+            "content": "- The tension that exists between the world of **a**ctual **m**achines and the world of **f**ucking **m**agic (*or:* fictional machines)\n",
+            "fixedPosition": false
         }
     ]
 }

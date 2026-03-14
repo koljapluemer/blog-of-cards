@@ -3,15 +3,27 @@
     "cards": [
         {
             "title": "~ to draw cleaner lines, follow through the whole motion",
-            "content": "— [📀 6 Habits for Good Line Quality](https://www.youtube.com/watch?v=lTslVOUJ0jI)"
+            "content": "— [📀 6 Habits for Good Line Quality](https://www.youtube.com/watch?v=lTslVOUJ0jI)",
+            "id": "1123cf1db22344bc9e4421239f2de29d",
+            "fixedPosition": false
         },
         {
             "title": "~ take time with each line you draw but then be confident",
-            "content": "— [📀 How to clean drawing](https://www.youtube.com/shorts/5wtfW99t3AA)"
+            "content": "— [📀 How to clean drawing](https://www.youtube.com/shorts/5wtfW99t3AA)",
+            "id": "b8b97074101d4858985a8873f46580bb",
+            "fixedPosition": false
         },
         {
             "title": " ~ avoid both scratchy short lines and messy seeking lines",
-            "content": "— [📀 6 Habits for Good Line Quality](https://www.youtube.com/watch?v=lTslVOUJ0jI)"
+            "content": "— [📀 6 Habits for Good Line Quality](https://www.youtube.com/watch?v=lTslVOUJ0jI)",
+            "id": "90e1e87afd354006b96a82858f3914e5",
+            "fixedPosition": false
+        },
+        {
+            "id": "9177496c75c24fa8a5795b532df787c3",
+            "title": "",
+            "content": "for a comprehensive (short) curriculum: [How To Draw Anything... ](https://www.youtube.com/watch?v=-UBbFNeY38k)",
+            "fixedPosition": false
         }
     ]
 }
