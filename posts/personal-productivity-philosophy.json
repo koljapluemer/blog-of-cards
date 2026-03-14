@@ -144,6 +144,24 @@
             "title": "~ working 10% more produces twice the output",
             "content": "> Given two people of approximately the same ability and one person who works ten percent more than the other, the latter will more than twice outproduce the former\n\n— [You and Your Research](https://www.cs.virginia.edu/~robins/YouAndYourResearch.html)",
             "fixedPosition": false
+        },
+        {
+            "id": "802463a247e94071926a52b028ce31b9",
+            "title": "productivity hacking tarpit",
+            "content": "- from [this HN comment](https://news.ycombinator.com/item?id=24916536#24927225) ",
+            "fixedPosition": false
+        },
+        {
+            "id": "f93b956d0a8c4fe9b90166e3e3162d8b",
+            "title": "~ do not confuse movement with progress",
+            "content": "- from [this HN comment](https://news.ycombinator.com/item?id=24916536#24927225) ",
+            "fixedPosition": false
+        },
+        {
+            "id": "bb7b222a5d894c02ac9b3aae1f81b75e",
+            "title": "Hemingway Bridge",
+            "content": "- *stop working only when you know what the next step will be*\n\n- mentioned in *📖 Building A Second Brain*",
+            "fixedPosition": false
         }
     ]
 }

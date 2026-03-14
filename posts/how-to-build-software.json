@@ -54,6 +54,18 @@
             "title": "AM⧸FM dilemma",
             "content": "- The tension that exists between the world of **a**ctual **m**achines and the world of **f**ucking **m**agic (*or:* fictional machines)\n",
             "fixedPosition": false
+        },
+        {
+            "id": "a293e4fbd002454cab5d72a15ea4a217",
+            "title": "~ goal of refactoring is pace, not sparkly best practice conforming",
+            "content": "> But I think the most dangerous way that people get trapped is when they try to justify refactoring in terms of “clean code,” “good engineering practice,” or similar moral reasons. The point of refactoring isn’t to show how sparkly a code base is—it is purely economic. We refactor because it makes us faster—faster to add features, faster to fix bugs. It’s important to keep that in front of your mind and in front of communication with others. \n\n— 📖 Refactoring",
+            "fixedPosition": false
+        },
+        {
+            "id": "830dd7c0844940ef9affdc7c687fdf0f",
+            "title": "~ if a function must have a side effect, make it affect its parent object",
+            "content": "— Clean Code",
+            "fixedPosition": false
         }
     ]
 }
