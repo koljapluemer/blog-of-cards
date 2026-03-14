@@ -1,0 +1,29 @@
+{
+    "title": "how to read, especially books",
+    "cards": [
+        {
+            "id": "fdf7312b0d7a42d98b5b6c768ae571a4",
+            "title": "⁓ well-used systems naturally grow complex",
+            "content": "a meta observation, definitely (at least at times) see that in my \"reading system\"",
+            "fixedPosition": false
+        },
+        {
+            "id": "dbc3b90893674996879c67e228f2b20a",
+            "title": "~ reading too fast or too slow is harmful",
+            "content": "> Pascal observed three hundred years ago, “When we read too fast or too slowly, we understand nothing.”\n\n— 📖 How to Read a Book\n\n*sounds like Goldilocks principle*\n\n",
+            "fixedPosition": false
+        },
+        {
+            "id": "01acd96f9b1e472ba1774b5acf21e2e7",
+            "title": "> Don’t read this book for its content; read its content for its practices.",
+            "content": "— 📖 Praying Like Monks, Living Like Fools\n\nalso: *always look for applications*",
+            "fixedPosition": false
+        },
+        {
+            "id": "e332478b887e4fd990be0ed46d42ec8d",
+            "title": "~ read a page of a book, close the book, write down what you remember",
+            "content": "— [The Best Learning Tool in History - 400 years ahead of its time!](https://www.youtube.com/watch?v=lML0ndFlBuc)\n\n- well this only works if the book is really that good...(or/and you care that much about every detail)",
+            "fixedPosition": false
+        }
+    ]
+}

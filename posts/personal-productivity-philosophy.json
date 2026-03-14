@@ -84,6 +84,60 @@
             "title": "~ to guard your focus, sweep for mines",
             "content": "> Sweep for mines. Turn off your phone, shut down your e-mail, and exit your Internet browser. Your most important work deserves 100 percent of your attention. \n\n— 📖 The One Thing",
             "fixedPosition": false
+        },
+        {
+            "id": "8c11c4cbf3e44aa088d38dfae0a4f153",
+            "title": "Mixed Feelings Park",
+            "content": "when you procrastinate a lot first, then do your thing, but the time waste was huge, and so the outcome is so-so\n\n\n— concept from [How to Beat Procrastination (waitbutwhy)](https://waitbutwhy.com/2013/11/how-to-beat-procrastination.html)",
+            "fixedPosition": false
+        },
+        {
+            "id": "00ef456a809b48d580bb8baccd94f67e",
+            "title": "accountability partner",
+            "content": "",
+            "fixedPosition": false
+        },
+        {
+            "id": "1317e2a287c944a998ef27391a28aa87",
+            "title": " unachievable goal/moonshot",
+            "content": "![](../media/img/personal-productivity-philosophy/goal.webp)",
+            "fixedPosition": false
+        },
+        {
+            "id": "6dd07f53e17d458da1ba0af899a403b0",
+            "title": "~ committing to do an habit daily means there will be slip ups",
+            "content": "— [“Write Every Day” is Bad Advice — Hacking the Psychology of Big Projects](https://www.calnewport.com/blog/2013/01/13/write-every-day-is-bad-advice-hacking-the-psychology-of-big-projects/)\n\n...and streaks become more \"emotionally dangerous\" (when they fail) the longer they go on...\n",
+            "fixedPosition": false
+        },
+        {
+            "id": "8116a4fbc9dd4b92bf76f507a46caa3a",
+            "title": "input-orientation",
+            "content": "- **thinking about productivity in terms of input, e.g. *> The one thing we control is the time we put into a task***\n",
+            "fixedPosition": false
+        },
+        {
+            "id": "c86f172e06974048a89015d2efeec22e",
+            "title": "After Action Report",
+            "content": "> After Action Reports (AARs), which serve as live autopsies. We do them no matter the outcome, and if you’re analyzing a failure like I was, the AAR is absolutely crucial.\n\n— 📖 Can't Hurt Me",
+            "fixedPosition": false
+        },
+        {
+            "id": "41292957e9d6409e87210c9b75cc04af",
+            "title": "one day break becomes two days becomes indefinite",
+            "content": "",
+            "fixedPosition": false
+        },
+        {
+            "id": "92fa6e28647b4bb2a553cd1eb145b4b9",
+            "title": "shiny object syndrome",
+            "content": "",
+            "fixedPosition": false
+        },
+        {
+            "id": "56f5f70d812f4e9f860856ca472c57f9",
+            "title": "remember the hockey stick",
+            "content": "*goes slow at the beginning, then faster and faster* (as long as it's actually exponential, which not all things are)",
+            "fixedPosition": false
         }
     ]
 }

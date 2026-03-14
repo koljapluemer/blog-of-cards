@@ -1,0 +1,11 @@
+{
+    "title": "mental models for interface design",
+    "cards": [
+        {
+            "id": "fc7218e543804a88b0090147a9ac9387",
+            "title": "Swimming Duck",
+            "content": "![a paddling duck](../media/img/mental-models-for-interface-design/duck.webp)\n\n> It looks smooth and calm, above water, but is paddling like hell, underneath.\n\n— [from HN comment](https://news.ycombinator.com/item?id=28511881#28526463)\n",
+            "fixedPosition": false
+        }
+    ]
+}

@@ -18,6 +18,36 @@
             "title": "Command Query Separation",
             "content": "- **means**:\n\t- do not have getters that also set something\n\t- do not have setters that also get something\n\n![](../media/img/how-to-build-software/cq.webp)",
             "fixedPosition": false
+        },
+        {
+            "id": "da37aa428ecf497590af9ffdfede9473",
+            "title": "feature-sliced design",
+            "content": "*   structure your project according to the layers: `app`, `pages`, `widgets`, `features`, `entities`, `shared`\n*   never import from a layer that's above, never import from a neighboring slice.\n*   think about — and seek — coherence: within a slice, things may criss-cross import each other. Build these strongly coherent blocks.\n    *   remember the graphic in [📰 Cohesion and Coupling: the difference](https://enterprisecraftsmanship.com/posts/cohesion-coupling-difference/)\n*   the framework really leans itself to first building a fat block of code, and refactoring later (\"moving things into the basement\") _if_ needed.\n    *   \"not everything needs to be a feature\"\n*   keep the `shared` components dumb. No business logic there.\n*   I have not really used standardized segment folders, rather just doing what I want within slice folders. Will possibly bite me later?\n*   It seems weird (and unnecessary) at times to define _all_ exports via an `index.ts` file, especially Vue components",
+            "fixedPosition": false
+        },
+        {
+            "id": "629d3b8d26d242dc8fefc8409c94ee9d",
+            "title": " approval test",
+            "content": "> With an approval test, you automate the test setup and teardown, but the assertion (or “approval”) is left to human input. \n\n— 📖 Refactoring Javascript",
+            "fixedPosition": false
+        },
+        {
+            "id": "16ad3886458a4a3384ee2330c6ecad38",
+            "title": "Block Element Modifier",
+            "content": "....and the other CSS stuff",
+            "fixedPosition": false
+        },
+        {
+            "id": "515ab72d93414648a96b64645f74c6a8",
+            "title": "fast, slow, slower",
+            "content": "> Continuous under-engineering leads to the “fast, slow, slower” rhythm of software development\n\n— 📖 Refactoring to Patterns",
+            "fixedPosition": false
+        },
+        {
+            "id": "80a9e71b967c4485b862ad3a3a9157bf",
+            "title": "dependency injection",
+            "content": "if a class needs another class to work, pass an instance of that class into the constructor instead of importing the dependency from the class itself",
+            "fixedPosition": false
         }
     ]
 }

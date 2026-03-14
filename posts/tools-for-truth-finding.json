@@ -6,6 +6,24 @@
             "title": "construct validity",
             "content": "- **extent to which a test measures the concept or construct it claims to measure**\n\n![](../media/img/tools-for-truth-finding/t.webp)\n\n~ main threats to construct validity are construct underrepresentation and construct-irrelevant variance\n\n— 📝 The interplay of evidence and consequences in the validation of performance assessments",
             "fixedPosition": false
+        },
+        {
+            "id": "bcf06176242145b6ade7cda9fcfe69dd",
+            "title": "construct underrepresentation",
+            "content": "> a situation in which the essential aspects of a given construct have not been captured\n\n— 📝Evaluating the Unintended Consequences of Assessment Practices﹕ Construct Irrelevance and Construct Underrepresentation\n\ntest failing to fully capture breadth and depth of construct*",
+            "fixedPosition": false
+        },
+        {
+            "id": "71adc28f4405453f9f86d42f0a893f61",
+            "title": "construct-irrelevant variance",
+            "content": "> degree to which test scores are affected by processes that are extraneous to the test’s intended purpose\n\n— 📝Evaluating the Unintended Consequences of Assessment Practices﹕ Construct Irrelevance and Construct Underrepresentation",
+            "fixedPosition": false
+        },
+        {
+            "id": "cb9b42b06c2b442ebfc4ed491796c894",
+            "title": "\"I don't actually believe this but here is an alternative explanation\"",
+            "content": "",
+            "fixedPosition": false
         }
     ]
 }

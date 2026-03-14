@@ -36,6 +36,12 @@
             "title": "progressive pomodoro",
             "content": "\n1. pick a pomo length that's fitting to your moti level, may be 5 minutes\n2. after the pomo block, rate your focus\n3. ..break or extend\n4. (but adapt the block length)\n\n[source](https://www.youtube.com/watch?v=qtoysJSQTn8)",
             "fixedPosition": false
+        },
+        {
+            "id": "aec4c8f9e4ac428ebec7f4a4010752bf",
+            "title": "token economy strategy",
+            "content": "- idea by *Newel of Knowledge*\n\n1. assign value (like \"watch a Netflix episode\") to something that you have a lot of, e.g. poker chip\n2. give yourself a chip whenever you complete a desired behavior",
+            "fixedPosition": false
         }
     ]
 }
