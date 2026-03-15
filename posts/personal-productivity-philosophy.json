@@ -180,6 +180,24 @@
             "title": "Everything worth doing is worth doing well vs. Everything worth doing is worth doing badly",
             "content": "",
             "fixedPosition": false
+        },
+        {
+            "id": "42e93d76a4ac45228b645ac79ba874a5",
+            "title": "> Time without attention is worthless, so value attention over time.",
+            "content": "— Tim Ferris",
+            "fixedPosition": false
+        },
+        {
+            "id": "7b8da54c3dba4008922a213a221412ab",
+            "title": "> cull your inputs",
+            "content": "— [On Claude Shannon's Deliberate Depth](https://www.calnewport.com/blog/2017/07/21/on-claude-shannons-deliberate-depth/)",
+            "fixedPosition": false
+        },
+        {
+            "id": "57b1644ccfd74f19bb248f11fc6f39ec",
+            "title": "> You have around 2 weeks before you lose motivation to work on something",
+            "content": "— [Making a Popular Open Source  Project](https://skerritt.blog/make-popular-open-source-projects/)",
+            "fixedPosition": false
         }
     ]
 }

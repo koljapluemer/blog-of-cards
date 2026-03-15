@@ -1,0 +1,11 @@
+{
+    "title": "project graveyard",
+    "cards": [
+        {
+            "id": "84b7043b484c48bf8d75142c31e699c9",
+            "title": "AI-based learning material editor",
+            "content": "tried implementing a sort of [CMS to create learning material (flashcards, exercises) with LLMs](https://github.com/koljapluemer/ai-based-learning-materials)...\n\n![screenshot of the CMS](../media/img/project-graveyard/aibased.webp)\n\n...wasn't really worth running as a standalone app",
+            "fixedPosition": false
+        }
+    ]
+}
