@@ -102,6 +102,12 @@
             "title": "~ ask﹕ who are you seeking to change﹖",
             "content": "— This is Marketing",
             "fixedPosition": false
+        },
+        {
+            "id": "1655701a9ced4170bc03127bb4fab3e0",
+            "title": "> Serve businesses, not people. People will do anything to not pay.",
+            "content": "— [HN﹕Becoming a Full-Time Creator as a Software Engineer](https://news.ycombinator.com/item?id=32233437#32237509)",
+            "fixedPosition": false
         }
     ]
 }

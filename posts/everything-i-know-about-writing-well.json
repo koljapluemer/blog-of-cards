@@ -3,19 +3,33 @@
     "cards": [
         {
             "title": "~ 1 paragraph should represent 1 core idea",
-            "content": "— 1981 📖 Style﹕ Lessons in Clarity and Grace\n\n![](../media/img/everything-i-know-about-writing-well/img2.webp)"
+            "content": "— 1981 📖 Style﹕ Lessons in Clarity and Grace\n\n![](../media/img/everything-i-know-about-writing-well/img2.webp)",
+            "id": "2266d46f85a74971b437a4c24c1660f2",
+            "fixedPosition": false
         },
         {
             "title": "> Write concisely. Preferably, not at all.",
-            "content": "— Sigge Ågren\n\n![](../media/img/everything-i-know-about-writing-well/img1.webp)"
+            "content": "— Sigge Ågren\n\n![](../media/img/everything-i-know-about-writing-well/img1.webp)",
+            "id": "aed9edca77b440c2bf65c86a4598fd68",
+            "fixedPosition": false
         },
         {
             "title": "~ don't write about topic, pose a problem",
-            "content": "— 1981 📖 Style﹕ Lessons in Clarity and Grace"
+            "content": "— 1981 📖 Style﹕ Lessons in Clarity and Grace",
+            "id": "f42419b3df314d6e8f9bb76e1ff75d4c",
+            "fixedPosition": false
         },
         {
             "title": "~ use emotion",
-            "content": "— [How to Write a Mini-Essay](https://www.youtube.com/watch?v=eCaOSNxwCsw)"
+            "content": "— [How to Write a Mini-Essay](https://www.youtube.com/watch?v=eCaOSNxwCsw)",
+            "id": "86d74defbb594194b31bbcec2a1eacd4",
+            "fixedPosition": false
+        },
+        {
+            "id": "5011c5d25310443ba1b1b632716a86ad",
+            "title": "~ bad writing comes from refusing to go from Beginning to Middle to End",
+            "content": "\n> If he would inform, he must advance regularly from Things known to things unknown, distinctly without Confusion, and the lower he begins the better. It is a common Fault in Writers, to allow their Readers too much knowledge. They begin with that which should be the Middle, and skipping backwards and forwards, 'tis impossible for any one but he who is perfect in the Subject before, to understand their Work, and such an one has no Occasion to read it\n\n— Ben Franklin, quoted in *📖 Style: Lessons in Clarity and Grace*",
+            "fixedPosition": false
         }
     ]
 }
