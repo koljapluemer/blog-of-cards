@@ -162,6 +162,18 @@
             "title": "Hemingway Bridge",
             "content": "- *stop working only when you know what the next step will be*\n\n- mentioned in *📖 Building A Second Brain*",
             "fixedPosition": false
+        },
+        {
+            "id": "ed87dcc106464088bf74588d04f0aac0",
+            "title": "~ analysis paralysis is dangerous in strategy searching",
+            "content": "> One reason that we avoid choosing a strategy is that we’re not comfortable walking away from all the other possible strategies. Rather than celebrate the paths not taken, we take no path at all. \n\n— 📖 This Is Strategy",
+            "fixedPosition": false
+        },
+        {
+            "id": "e01163d1de1f42f29a3fc2a27dde7463",
+            "title": "> An artist gives all they have to the art",
+            "content": "— Blue Eye Samurai",
+            "fixedPosition": false
         }
     ]
 }

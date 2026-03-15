@@ -36,6 +36,18 @@
             "title": "> For every complex problem, there is an answer that is clear, simple, and wrong",
             "content": "— H. L. Mencken, found on HN",
             "fixedPosition": false
+        },
+        {
+            "id": "cde3fd85fb7b43a39853c0088655de60",
+            "title": "finding opposing papers",
+            "content": "- keywords:\n\t- `controversy`\n\t- `\"no effect\"`\n\t- `criticism`, `critique`, `critical`\n\t- `opposing`",
+            "fixedPosition": false
+        },
+        {
+            "id": "da0a22238d544c67bd5f51e433ba87da",
+            "title": "~ important problems are often impossible to define clearly by thinking",
+            "content": "> Many important problems are poorly defined, and will never become clearly defined purely by thinking hard about the issues\n\n—The Power of Intuition",
+            "fixedPosition": false
         }
     ]
 }
