@@ -30,6 +30,12 @@
             "title": "~ ask﹕ what evidence would I need to change my interpretation﹖",
             "content": "> *Test for Fixation* The strategy here is to challenge yourself. You can ask: “What evidence would it take to convince myself that my interpretation is wrong?\n\n— The Power of Intuition",
             "fixedPosition": false
+        },
+        {
+            "id": "e9749a3c546646d080835c6384a318c9",
+            "title": "> For every complex problem, there is an answer that is clear, simple, and wrong",
+            "content": "— H. L. Mencken, found on HN",
+            "fixedPosition": false
         }
     ]
 }

@@ -66,6 +66,18 @@
             "title": "~ if a function must have a side effect, make it affect its parent object",
             "content": "— Clean Code",
             "fixedPosition": false
+        },
+        {
+            "id": "a85c61e489ad4653877e438fff75d297",
+            "title": "~ SQLite is an excellent db, even deployed",
+            "content": "> SQLite specifically is great because it doesn't require you to install a lot, and when you make a database, it's just a file. It's very transportable. You can literally copy the database file from and to your server. There's misconceptions about SQLite that it'd be slow or not scalable enough. That's bullshit.\n\n— 📖 Make﹕ Bootstrapper's Handbook\n\n- this isn't really about SQLite for me, but in a larger sense: Don't shun tech just because it isn't cool or corporate wouldn't use it (c.f. innovation tokens)",
+            "fixedPosition": false
+        },
+        {
+            "id": "6ddec473ef9a4b6d91d4c0e30197af16",
+            "title": "~ delay decisions until the decisions would be made for you by inaction ",
+            "content": "— 📖 97 Principles for Software Architects",
+            "fixedPosition": false
         }
     ]
 }
