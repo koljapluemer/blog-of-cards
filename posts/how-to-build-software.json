@@ -78,6 +78,42 @@
             "title": "~ delay decisions until the decisions would be made for you by inaction ",
             "content": "— 📖 97 Principles for Software Architects",
             "fixedPosition": false
+        },
+        {
+            "id": "27369654e8544e9299dc2f6d5ccddd43",
+            "title": "event-driven programming",
+            "content": "> Every time the user interacts with your program — clicks a button, pulls down a menu, or presses a key — the operating system generates an event. It throws this object at your app, and your job is to grab it and hook it up to some interesting behavior. This application style is so common, it’s considered a paradigm: event-driven programming.\n\n— 📖 Game Programming Patterns",
+            "fixedPosition": false
+        },
+        {
+            "id": "181184e57faa46e0aeb46c349e8bb808",
+            "title": "lead magnet",
+            "content": "> Sometimes, though, people want to know more about your offer before they buy. This is common for businesses that sell more expensive stuff. If that’s you, then you’ll often get more leads to engage by advertising with a lead magnet first. A lead magnet is a complete solution to a narrow problem. It’s typically a lower-cost or free offer to see who is interested in your stuff. And, once solved, it reveals another problem solved by your core offer. \n\n— 📖 $100M Leads",
+            "fixedPosition": false
+        },
+        {
+            "id": "284297a013de466c9a22bdedcb6cdb32",
+            "title": "~ locality of behavior over separation of concerns",
+            "content": "*and:*\n\n~ inline the invocation, but don't inline the implementation\n\n> A common objection to **locality of behaviour** is that it is inlining implementation details within a code unit, making the code unit less abstract and more brittle. However, it is important to make the distinction between inlining the _implementation_ of some behaviour and inlining the invocation (or declaration) of some behaviour.\n\n\n\n— [Locality of Behaviour (LoB)](https://htmx.org/essays/locality-of-behaviour/)",
+            "fixedPosition": false
+        },
+        {
+            "id": "19d50986240440e49339f2314057ce65",
+            "title": "~ every comment is a code design failure",
+            "content": "— 📖 Clean Code\n\n- *or:* celebrate every expression in pure code, cringe at any use of comments\n",
+            "fixedPosition": false
+        },
+        {
+            "id": "f3584e5cf9374444bc864778e644ff1a",
+            "title": "beware premature abstraction",
+            "content": "",
+            "fixedPosition": false
+        },
+        {
+            "id": "94403222609f4e60aa2e870486fd8a57",
+            "title": "~ trying to mirror software's function in prose is a violation of SSoT doomed to fail",
+            "content": "— The Mythical Man Month",
+            "fixedPosition": false
         }
     ]
 }

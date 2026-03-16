@@ -17,7 +17,7 @@
             "id": "8263566cb293432b9fb343bc07f02d78",
             "title": "",
             "content": "My current solution is this [mockup webapp](https://wrapper.koljasam.com/)\n\n![](../media/img/the-mission-to-mockup-screenshots/wrapper.webp)\n\nIt's decent, but it lacks one important feature: Placing multiple screenshots.",
-            "fixedPosition": false
+            "fixedPosition": true
         }
     ]
 }

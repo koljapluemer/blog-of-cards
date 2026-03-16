@@ -3,7 +3,15 @@
     "cards": [
         {
             "title": "~ delete all adverbs and adjectives in a paragraph, then restore only the needed ones",
-            "content": "—  📖 Style:  Lessons in Clarity and Grace"
+            "content": "—  📖 Style:  Lessons in Clarity and Grace",
+            "id": "04522772faae4e4b891dbac1aea4d5fc",
+            "fixedPosition": false
+        },
+        {
+            "id": "221c25bc34c54f9cb44344f4ab5be458",
+            "title": "> As one of my favourite writing professors used to say, -39 points for not having a point.",
+            "content": "— Maggie Appleton",
+            "fixedPosition": false
         }
     ]
 }

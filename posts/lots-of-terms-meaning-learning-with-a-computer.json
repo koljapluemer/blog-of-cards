@@ -66,6 +66,18 @@
             "title": "technology enhanced language learning (TELL/TALL)",
             "content": "",
             "fixedPosition": false
+        },
+        {
+            "id": "9f524b17b2c54ca991e886e5068e379c",
+            "title": "Intelligent Computer-Assisted Language Learning",
+            "content": "",
+            "fixedPosition": false
+        },
+        {
+            "id": "a3a15d57284a403ea0c0df0705119011",
+            "title": "computerized learning",
+            "content": "from 📖 Fluent Forever",
+            "fixedPosition": false
         }
     ]
 }

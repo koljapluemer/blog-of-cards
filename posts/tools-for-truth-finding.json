@@ -48,6 +48,12 @@
             "title": "~ important problems are often impossible to define clearly by thinking",
             "content": "> Many important problems are poorly defined, and will never become clearly defined purely by thinking hard about the issues\n\n—The Power of Intuition",
             "fixedPosition": false
+        },
+        {
+            "id": "c1256f2b287044b4b081e0254b93c8ff",
+            "title": "~ questioning assumptions is really hard",
+            "content": "— 📖 Designing Games",
+            "fixedPosition": false
         }
     ]
 }
