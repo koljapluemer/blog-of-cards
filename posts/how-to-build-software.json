@@ -114,6 +114,12 @@
             "title": "~ trying to mirror software's function in prose is a violation of SSoT doomed to fail",
             "content": "— The Mythical Man Month",
             "fixedPosition": false
+        },
+        {
+            "id": "4f6d8dee52cf4963965fb4160d1fb51f",
+            "title": "~ test on bad network conditions",
+            "content": "",
+            "fixedPosition": false
         }
     ]
 }
