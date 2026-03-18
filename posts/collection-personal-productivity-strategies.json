@@ -42,6 +42,24 @@
             "title": "token economy strategy",
             "content": "- idea by *Newel of Knowledge*\n\n1. assign value (like \"watch a Netflix episode\") to something that you have a lot of, e.g. poker chip\n2. give yourself a chip whenever you complete a desired behavior",
             "fixedPosition": false
+        },
+        {
+            "id": "ee42fb458812496ba90e2053c445c5ca",
+            "title": "~ say \"What if I do ＿＿\" instead of \"I HAVE to do ＿＿\"",
+            "content": "— comment section of *📀 9 (lesser known) ADHD life hacks*",
+            "fixedPosition": false
+        },
+        {
+            "id": "d983cb3ac4e245ebb03cb18c4994b2de",
+            "title": "~ if you can't find 10 people who love your product, you need a new product",
+            "content": "> Repeat. If they don’t love it, you need a new product or more insight about the ten people you choose. Begin again. \n\n— This is Strategy",
+            "fixedPosition": false
+        },
+        {
+            "id": "1ccb524a8aac4ead95835705391ef6f3",
+            "title": "> People don't pay for solutions to problems they don't mind having",
+            "content": "— Embedded Entrepreneur",
+            "fixedPosition": false
         }
     ]
 }

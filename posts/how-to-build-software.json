@@ -120,6 +120,12 @@
             "title": "~ test on bad network conditions",
             "content": "",
             "fixedPosition": false
+        },
+        {
+            "id": "8598f7c4493d46aaab5a3a4b5c61fddd",
+            "title": "~ point of TDD is to force you design your code to be testable",
+            "content": "— [📀 How To Use TDD For UI Design](https://www.youtube.com/watch?v=NNf8tXs1wbQ)",
+            "fixedPosition": false
         }
     ]
 }

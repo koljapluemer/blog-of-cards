@@ -78,6 +78,18 @@
             "title": "computerized learning",
             "content": "from 📖 Fluent Forever",
             "fixedPosition": false
+        },
+        {
+            "id": "68f05a2efbbc4f8692b3601a0d3839ee",
+            "title": "funware",
+            "content": "(mostly dead)",
+            "fixedPosition": false
+        },
+        {
+            "id": "132bf6beff294514a6599634c93c44fc",
+            "title": "game-inspired design",
+            "content": "",
+            "fixedPosition": false
         }
     ]
 }
