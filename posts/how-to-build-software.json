@@ -126,6 +126,12 @@
             "title": "~ point of TDD is to force you design your code to be testable",
             "content": "— [📀 How To Use TDD For UI Design](https://www.youtube.com/watch?v=NNf8tXs1wbQ)",
             "fixedPosition": false
+        },
+        {
+            "id": "a46eb4b3c7e74e748cec6fbd63681d41",
+            "title": "~ always have a simple feedback box on your site",
+            "content": "> You can set this up with a lot of services like Olark or Intercom. What they do is they add a small chat box on the bottom left or bottom right of your web page. People can simply enter like, \"Hey, there's a bug here\" or \"I want this feature.\"\n\n— 📖 Make",
+            "fixedPosition": false
         }
     ]
 }

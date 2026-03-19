@@ -192,6 +192,18 @@
             "title": "~ launching anything makes some fact no longer true",
             "content": "> Launch a new project and, in addition to serving your audience, you’ll be breaking something. The very existence of an alternative causes something else to no longer be true. When you launch the second hotel in Niagara Falls, the first hotel is no longer the one and only. When you launch the telephone, the telegraph is no longer the fastest way to send a message. \n\n— This is Marketing",
             "fixedPosition": false
+        },
+        {
+            "id": "b9379a80ba184626a8135832adfb1c9e",
+            "title": "~ entrepreneurs do their best work when resource-constrained",
+            "content": "> Here's the interesting thing though which you see with both entrepreneurs and artists alike. Often, their best work was when they were constrained by resources\n\n> Here's a test: how many entrepreneurs you know who became successful (and rich) and then made a second project that also became as successful. It's fairly rare. And it's because success changes people's life. They are no longer (financially) dependent on the success of a project. They already have had money and success. Often the \"chip on their shoulder\" of \"I'm going to show the world I can do it\" is gone.\n\n— 📖 Make",
+            "fixedPosition": false
+        },
+        {
+            "id": "942928fae039413b856d5e72169b527a",
+            "title": "~ always have a simple feedback box on your site",
+            "content": "> You can set this up with a lot of services like Olark or Intercom. What they do is they add a small chat box on the bottom left or bottom right of your web page. People can simply enter like, \"Hey, there's a bug here\" or \"I want this feature.\"\n\n— 📖 Make",
+            "fixedPosition": false
         }
     ]
 }

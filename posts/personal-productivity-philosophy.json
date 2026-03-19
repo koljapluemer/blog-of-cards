@@ -282,6 +282,12 @@
             "title": "~ hard to make a change, harder to stick to it",
             "content": "— 📖 Hooked",
             "fixedPosition": false
+        },
+        {
+            "id": "82090cd528ae458a870c7b7ef71811c9",
+            "title": "> Deep work is not natural. It’s not going to be your first instinct when asking “what should I do next?”",
+            "content": "— Cal Newport",
+            "fixedPosition": false
         }
     ]
 }
