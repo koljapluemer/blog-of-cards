@@ -204,6 +204,48 @@
             "title": "~ always have a simple feedback box on your site",
             "content": "> You can set this up with a lot of services like Olark or Intercom. What they do is they add a small chat box on the bottom left or bottom right of your web page. People can simply enter like, \"Hey, there's a bug here\" or \"I want this feature.\"\n\n— 📖 Make",
             "fixedPosition": false
+        },
+        {
+            "id": "f5753975d2924f03ad5210651aeaf278",
+            "title": "",
+            "content": "> But most of the people we encounter are skeptics. They’re looking for an easy way to keep things the same. They’re uncomfortable with the tension that change brings, and will conceal that fear with objections that seem like thoughtful feedback. It’s not. \n\n—— Seth Godin",
+            "fixedPosition": false
+        },
+        {
+            "id": "80370ac4417a4885b42d29dd331a767a",
+            "title": "Results-Only Work Environment",
+            "content": "> If you want to observe the power of control up close in the workplace, look toward companies embracing a radical new philosophy called Results-Only Work Environment (or, ROWE, for short)\n\n— Cal Newport",
+            "fixedPosition": false
+        },
+        {
+            "id": "94c7aa8a61564f99b3328b548e4d9176",
+            "title": "> What you say isn’t nearly as important as what others say about you.",
+            "content": "— 📖 This is Marketing",
+            "fixedPosition": false
+        },
+        {
+            "id": "561a36363a6d47fca89b3d4e97bac213",
+            "title": "~ be remarkable",
+            "content": "> If you can show up in a parody, it means you’ve got something unique, something worth poking fun at. \n\n— 📖 Purple Cow",
+            "fixedPosition": false
+        },
+        {
+            "id": "4129b87e105e45c8899f7f3758548969",
+            "title": "~ ask﹕who is paying the bills﹖",
+            "content": "— BHT Startup Bootcamp",
+            "fixedPosition": false
+        },
+        {
+            "id": "06ef2cfc50e3490aa2f7155d207585c2",
+            "title": "~ market by making something so remarkable that tiny adopter group won't stop talking about it",
+            "content": "> job of the marketer is to make something so remarkable that this tiny group of adopters can’t stop telling their peers. \n\n— 📖 This Is Strategy",
+            "fixedPosition": false
+        },
+        {
+            "id": "fe2c6b0161f542a38d4bce893bd7f9de",
+            "title": "> The early adopters don’t ask for proof, but something to believe in.",
+            "content": "— 📖 This Is Strategy",
+            "fixedPosition": false
         }
     ]
 }

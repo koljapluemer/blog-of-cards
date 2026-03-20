@@ -288,6 +288,18 @@
             "title": "> Deep work is not natural. It’s not going to be your first instinct when asking “what should I do next?”",
             "content": "— Cal Newport",
             "fixedPosition": false
+        },
+        {
+            "id": "0e06d0b1d14f49d4ad355b3e814c72ea",
+            "title": "~ do it ironically",
+            "content": "— [video](https://www.youtube.com/watch?v=0u9iMbXQhV8) ",
+            "fixedPosition": false
+        },
+        {
+            "id": "fdc6faa5947646fab97b6d25bc97edb6",
+            "title": "~ ask﹕ are you productive or just active﹖",
+            "content": "— 4-Hour Work Week",
+            "fixedPosition": false
         }
     ]
 }

@@ -90,6 +90,12 @@
             "title": "game-inspired design",
             "content": "",
             "fixedPosition": false
+        },
+        {
+            "id": "9213e0d74b7f40b0bc99a402c28535f9",
+            "title": "Intelligent Tutoring System (ITS)",
+            "content": ">  The Turing test has been used in its essence for more than two decades as a model for current ITS development. The main ideal for ITS systems is to effectively communicate\n\n— wikipedia (ITS)",
+            "fixedPosition": false
         }
     ]
 }

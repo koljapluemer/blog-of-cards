@@ -132,6 +132,12 @@
             "title": "~ always have a simple feedback box on your site",
             "content": "> You can set this up with a lot of services like Olark or Intercom. What they do is they add a small chat box on the bottom left or bottom right of your web page. People can simply enter like, \"Hey, there's a bug here\" or \"I want this feature.\"\n\n— 📖 Make",
             "fixedPosition": false
+        },
+        {
+            "id": "d450192f0aa4446ba8a9894efdf05a4b",
+            "title": "> \"extremely unsafe\" and whatever, but works",
+            "content": "— [Maxima Alekz (random guy on SO)](https://stackoverflow.com/questions/64662372/docker-compose-up-error-while-fetching-server-api-version-connection-aborte#comment125582489_70003241) \n",
+            "fixedPosition": false
         }
     ]
 }

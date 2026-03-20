@@ -36,6 +36,12 @@
             "title": "~ Split Testing is susceptible to local maxima",
             "content": "— Just enough Research",
             "fixedPosition": false
+        },
+        {
+            "id": "52fde95ed96b409496b7ac79c1cb4508",
+            "title": "",
+            "content": "> But most of the people we encounter are skeptics. They’re looking for an easy way to keep things the same. They’re uncomfortable with the tension that change brings, and will conceal that fear with objections that seem like thoughtful feedback. It’s not. \n\n—— Seth Godin",
+            "fixedPosition": false
         }
     ]
 }
