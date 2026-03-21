@@ -138,6 +138,18 @@
             "title": "> \"extremely unsafe\" and whatever, but works",
             "content": "— [Maxima Alekz (random guy on SO)](https://stackoverflow.com/questions/64662372/docker-compose-up-error-while-fetching-server-api-version-connection-aborte#comment125582489_70003241) \n",
             "fixedPosition": false
+        },
+        {
+            "id": "c8c528d7c92d48cd83c35ed7e1556830",
+            "title": "~ code only needs to be refactored if it needs to be changed",
+            "content": "> Let me stress that it’s these changes that drive the need to perform refactoring. If the code works and doesn’t ever need to change, it’s perfectly fine to leave it alone. It would be nice to improve it, but unless someone needs to understand it, it isn’t causing any real harm. \n\n— 📖 Refactoring",
+            "fixedPosition": false
+        },
+        {
+            "id": "44a94439bc1140c1847a0be31ee5bb38",
+            "title": "~ people discussing programming languages are not shipping products",
+            "content": "> The people discussing what programming language is best are not shipping products. The people who don't care what programming language they're using are shipping products.\n\n— 📖 Make﹕ Bootstrapper's Handbook",
+            "fixedPosition": false
         }
     ]
 }

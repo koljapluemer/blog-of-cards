@@ -96,6 +96,18 @@
             "title": "Intelligent Tutoring System (ITS)",
             "content": ">  The Turing test has been used in its essence for more than two decades as a model for current ITS development. The main ideal for ITS systems is to effectively communicate\n\n— wikipedia (ITS)",
             "fixedPosition": false
+        },
+        {
+            "id": "970263c062e94bdfadab9eb30ed1bb45",
+            "title": "rich environments for active learning",
+            "content": "- mentioned by *📝 Putting Education in “Educational” Apps﹕ Lessons From the Science of Learning*:\n\t- *> Grabinger and Dunlap (1995), for example, described rich environments for active learning (REALs) as “[providing] learning activities that engage students in a continuous collaborative process of building and reshaping understanding as a natural consequence of their experiences and interactions*",
+            "fixedPosition": false
+        },
+        {
+            "id": "45bd28b9c74d4a7fb05f7b184f1c5afa",
+            "title": "Web-based pedagogical tools",
+            "content": "",
+            "fixedPosition": false
         }
     ]
 }

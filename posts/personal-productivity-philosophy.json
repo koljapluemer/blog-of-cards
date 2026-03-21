@@ -306,6 +306,18 @@
             "title": "self-regulatory exertion",
             "content": "> Most knowledge work that we do today requires some element of what psychologists call ‘self-regulatory exertions’. This is our ability to control our behaviour, thoughts and feelings. \n\n— 📖 Feel-Good Productivity\n\n- see also **willpower depletion theory**",
             "fixedPosition": false
+        },
+        {
+            "id": "13cbcdae5965474093b5bd80c1caad8b",
+            "title": "False hope syndrome",
+            "content": "> It’s only when we are feeling out of control and in need of another hit of hope that we’ll once again vow to change—and start the cycle all over. Polivy and Herman call this cycle the “false hope syndrome.” \n\n— *📖 The Willpower Instinct*\n",
+            "fixedPosition": false
+        },
+        {
+            "id": "7c40314e41874f76a783b07fd7290ab2",
+            "title": "~ work accomplished = time x intensity of focus",
+            "content": "— Cal Newport",
+            "fixedPosition": false
         }
     ]
 }

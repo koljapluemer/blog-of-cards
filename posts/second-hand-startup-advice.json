@@ -246,6 +246,36 @@
             "title": "> The early adopters don’t ask for proof, but something to believe in.",
             "content": "— 📖 This Is Strategy",
             "fixedPosition": false
+        },
+        {
+            "id": "ce014634488447f2a683df21de4fd253",
+            "title": "~ people want the same things as ever",
+            "content": "> “We often think the Internet enables you to do new things . . . But people just want to do the same things they’ve always done.”\n\n— 📖 Hooked",
+            "fixedPosition": false
+        },
+        {
+            "id": "d1e82cd7da9f4f3b946dcdeb94b8528c",
+            "title": "~ compete with everyone everywhere and you get nothing done",
+            "content": "> It’s tempting to fill our days with work. To update our TikTok, LinkedIn, and Facebook pages, then shift to Instagram and then back to our email. To work through an endless list of tasks and check off all the boxes. And to serve every customer, every constituent, and every colleague, even when we might be more generous to simply send them somewhere else. If we’re competing with everyone, in every venue, it’s no wonder we’re not getting much done. \n\n— *📖 This Is Strategy*",
+            "fixedPosition": true
+        },
+        {
+            "id": "cbe270633dbe4b5282df0ddc36b48717",
+            "title": "~ don't brand in any way before you prove real demand, because you need to be able to freely pivot",
+            "content": "— *📰 Finding the Right Money-Making Ideas (That Anyone Can Do)* (deleted)",
+            "fixedPosition": false
+        },
+        {
+            "id": "ce3c3988f59946e29ec7558e6df71e2a",
+            "title": "",
+            "content": "> The people discussing what programming language is best are not shipping products. The people who don't care what programming language they're using are shipping products.\n\n— 📖 Make﹕ Bootstrapper's Handbook",
+            "fixedPosition": false
+        },
+        {
+            "id": "1519e75bbc4442a09840c343535f8594",
+            "title": "~ make incomparable offers",
+            "content": "> Alright, let’s start by defining a Grand Slam Offer. It’s an offer you present to the marketplace that cannot be compared to any other product or service available\n\n— $100M Offers",
+            "fixedPosition": false
         }
     ]
 }

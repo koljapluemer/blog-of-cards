@@ -72,6 +72,18 @@
             "title": "outline",
             "content": "> Great written thoughts have clear pathways. I block out the prominent points and fill out the details to create more cohesive ideas. I was an art major in college, and my painting classes taught me to block out colors, then fill in the details. The same applies to writing. \n\n— [📰 Writing blog posts quickly](https://www.imkylelambert.com/articles/writing-blog-posts-quickly)",
             "fixedPosition": false
+        },
+        {
+            "id": "c66495e0d4f64b2c933cb3b5518e10ce",
+            "title": "~ prefer 'because' over 'and then'",
+            "content": "> ‘You want all your scenes to have a “because” between them, and not an “and then”.’ Brains struggle with ‘and then’.\n\n— *📖 The Science of Storytelling*",
+            "fixedPosition": false
+        },
+        {
+            "id": "71d961f11faf4d24b49efee6323c47e0",
+            "title": "> What are we to do with what we have written down﹖ Certainly, at first, we will produce mostly garbage.",
+            "content": "— Luhmann",
+            "fixedPosition": false
         }
     ]
 }
