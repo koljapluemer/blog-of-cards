@@ -276,6 +276,30 @@
             "title": "~ make incomparable offers",
             "content": "> Alright, let’s start by defining a Grand Slam Offer. It’s an offer you present to the marketplace that cannot be compared to any other product or service available\n\n— $100M Offers",
             "fixedPosition": false
+        },
+        {
+            "id": "6f31b242c6ab4f92bc8f2c0965d7b55b",
+            "title": "",
+            "content": "> Copy. Not from your industry, but from any other industry. Find an industry more dull than yours, discover who’s remarkable (it won’t take long), and do what they did.\n\n— Purple Cow",
+            "fixedPosition": false
+        },
+        {
+            "id": "1dc9bc895767442a981b96414d3db37c",
+            "title": "~ analyze why people are right in their decision to not buy from you",
+            "content": "> Those people who don’t buy from you, the ones who don’t take your calls, who sneer at your innovations, who happily buy from a competitor even if they know you exist . . . those people . . . Why are they right? Why are the people who don’t choose you correct in their decision to not choose you? \n\n— 📖 This is Marketing",
+            "fixedPosition": false
+        },
+        {
+            "id": "c00a8b3ddec44e0f84bdc35e0e03e6bc",
+            "title": "~ you are not solving an actual problem if the current solution is 'good enough'",
+            "content": "> Many things which purport to make particular business processes easier are not in fact solving a problem, because the existing process is Good Enough. If you can't find any book written about it, any competing software, any much-maligned downloadable Excel spreadsheets... consider that it might not be an important enough problem.\n\n— [📰 Validating Product Ideas Before Building Them](https://training.kalzumeus.com/newsletters/archive/validating_product_ideas)\n",
+            "fixedPosition": false
+        },
+        {
+            "id": "4f1cc75e6d5e407c919b25c8383fc841",
+            "title": "~ your target customer should know they have a problem and trying to solve it",
+            "content": "> Customers should already know they have the problem you think they have, and be attempting to solve it. If they don't know they have the problem, this suggests that you're a) going to have to engage in a very ambitious marketing campaign to suggest to them that a portion of the life they are living is, in fact, _wrong_ or, more likely, b) you're delusional.\n\n\n— [📰 Validating Product Ideas Before Building Them](https://training.kalzumeus.com/newsletters/archive/validating_product_ideas)\n",
+            "fixedPosition": false
         }
     ]
 }

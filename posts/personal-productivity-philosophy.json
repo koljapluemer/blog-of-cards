@@ -318,6 +318,36 @@
             "title": "~ work accomplished = time x intensity of focus",
             "content": "— Cal Newport",
             "fixedPosition": false
+        },
+        {
+            "id": "e5f18f1c61d44a7cb25428363acdc3c8",
+            "title": "streaks have very high emotional restart cost",
+            "content": "",
+            "fixedPosition": false
+        },
+        {
+            "id": "e071998b836646eaa1e5fcd35310b62b",
+            "title": "~ productivity ebbs and flows",
+            "content": "",
+            "fixedPosition": false
+        },
+        {
+            "id": "3c64d64eef6149d6abf00b15916999eb",
+            "title": "> You can’t call something a distraction unless you know what it’s distracting you from",
+            "content": "— Indistractable",
+            "fixedPosition": false
+        },
+        {
+            "id": "c534e776fb394505a87a14f2413b829e",
+            "title": "~ committing to something unimportant does not make it important",
+            "content": "",
+            "fixedPosition": false
+        },
+        {
+            "id": "0008209fefdb4c03ad480f40c17d4eea",
+            "title": "~ don't say no to distractions, say yes to interesting subjects",
+            "content": "— [📰 Don’t Fight Distraction. Make It Irrelevant.](https://www.calnewport.com/blog/2014/06/05/dont-fight-distraction-make-it-irrelevant/)",
+            "fixedPosition": false
         }
     ]
 }

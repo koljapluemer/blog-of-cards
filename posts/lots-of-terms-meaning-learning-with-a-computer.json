@@ -108,6 +108,12 @@
             "title": "Web-based pedagogical tools",
             "content": "",
             "fixedPosition": false
+        },
+        {
+            "id": "7f299509e0e24f53a144e9d23f4550ce",
+            "title": "",
+            "content": "> resources that are openly provisioned for use and adaptation by a community of users for non-commercial purposes\n\n— [paper](https://dl.acm.org/doi/pdf/10.1145/3544548.3581574)",
+            "fixedPosition": false
         }
     ]
 }

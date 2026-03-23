@@ -60,6 +60,12 @@
             "title": "~ find articles directly hating on things you love",
             "content": "",
             "fixedPosition": false
+        },
+        {
+            "id": "9b782043dd024b69a0f5d06a4aab0110",
+            "title": "~ set tripwires",
+            "content": "> One way to recognize how much effort and map-bending it’s taking you to hold on to your fixation is to establish tripwires—events that should not be happening or levels that are not supposed to be exceeded—that would indicate that your interpretation of the situation may be inaccurate. For example, one physician described to us how he performs a risky type of surgery. He estimates how long the procedure is supposed to take and if the operation exceeds this time he takes that as an indicator to reexamine whether to proceed or to convert to a more traditional technique. The tripwire is the fact that he has exceeded the typical amount of time for the procedure. \n\n— Power of Intuition",
+            "fixedPosition": false
         }
     ]
 }

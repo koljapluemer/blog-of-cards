@@ -1,5 +1,5 @@
 {
-    "title": "starting a project",
+    "title": "starting a project, being creative, solving a problem",
     "cards": [
         {
             "id": "8ea8037f2f8c46df8d1fde7f8617bd12",
@@ -23,6 +23,18 @@
             "id": "b40b10ece75d45dd9e121f7a20f31569",
             "title": "~ ask﹕ who are you seeking to change﹖",
             "content": "— This is Marketing",
+            "fixedPosition": false
+        },
+        {
+            "id": "7811dea217354e5a8d9bf6d8b9e439c2",
+            "title": "~ find 30 solutions in 5 minutes",
+            "content": "— struthless",
+            "fixedPosition": false
+        },
+        {
+            "id": "cd97e6cefbd04fe3a48dd9a9310a8a60",
+            "title": "~ first, write down a clear problem definition",
+            "content": "— [The Mental Game of Python](https://youtu.be/UANN2Eu6ZnM)",
             "fixedPosition": false
         }
     ]
