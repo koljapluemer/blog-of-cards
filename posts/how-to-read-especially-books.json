@@ -24,6 +24,18 @@
             "title": "~ read a page of a book, close the book, write down what you remember",
             "content": "— [The Best Learning Tool in History - 400 years ahead of its time!](https://www.youtube.com/watch?v=lML0ndFlBuc)\n\n- well this only works if the book is really that good...(or/and you care that much about every detail)",
             "fixedPosition": false
+        },
+        {
+            "id": "0c5278240dca4729b4b2f9a0291d2da6",
+            "title": "~ read quickly by reading a lot about a topic",
+            "content": "> The basic principle is easy to grok: once you’ve read enough books about a single topic, it becomes trivially easy to read a _new_ book on that topic. This experience should be familiar to computer programmers: for every _n_ programming language you know, the _n+1_ programming language you adopt becomes easier to learn\n\n— [Reading Quickly is Reading a Lot](https://commoncog.com/reading-quickly-reading-lots/)\n\n(great post to re-read in general)\n\n",
+            "fixedPosition": false
+        },
+        {
+            "id": "76c8331748664dbf9efe43bedc4ffab5",
+            "title": "~ note-taking while reading interrupts flow",
+            "content": "— [Recalling Books You've Read, Made Easy](https://dannb.org/blog/2022/recalling-books-youve-read-made-easy/)",
+            "fixedPosition": false
         }
     ]
 }

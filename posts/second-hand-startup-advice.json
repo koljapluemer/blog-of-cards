@@ -300,6 +300,12 @@
             "title": "~ your target customer should know they have a problem and trying to solve it",
             "content": "> Customers should already know they have the problem you think they have, and be attempting to solve it. If they don't know they have the problem, this suggests that you're a) going to have to engage in a very ambitious marketing campaign to suggest to them that a portion of the life they are living is, in fact, _wrong_ or, more likely, b) you're delusional.\n\n\n— [📰 Validating Product Ideas Before Building Them](https://training.kalzumeus.com/newsletters/archive/validating_product_ideas)\n",
             "fixedPosition": false
+        },
+        {
+            "id": "fa5e4bd2d3a34d41babb0749ae3f6f5f",
+            "title": "~ first product should be very simple, a single thing requiring only a single marketing channel",
+            "content": "",
+            "fixedPosition": false
         }
     ]
 }

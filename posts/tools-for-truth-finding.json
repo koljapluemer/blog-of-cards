@@ -66,6 +66,18 @@
             "title": "~ set tripwires",
             "content": "> One way to recognize how much effort and map-bending it’s taking you to hold on to your fixation is to establish tripwires—events that should not be happening or levels that are not supposed to be exceeded—that would indicate that your interpretation of the situation may be inaccurate. For example, one physician described to us how he performs a risky type of surgery. He estimates how long the procedure is supposed to take and if the operation exceeds this time he takes that as an indicator to reexamine whether to proceed or to convert to a more traditional technique. The tripwire is the fact that he has exceeded the typical amount of time for the procedure. \n\n— Power of Intuition",
             "fixedPosition": false
+        },
+        {
+            "id": "2ae3df46ddd64bea95c410411813f503",
+            "title": "~ read quickly by reading a lot on one topic",
+            "content": "> The basic principle is easy to grok: once you’ve read enough books about a single topic, it becomes trivially easy to read a _new_ book on that topic. This experience should be familiar to computer programmers: for every _n_ programming language you know, the _n+1_ programming language you adopt becomes easier to learn\n\n— [Reading Quickly is Reading a Lot](https://commoncog.com/reading-quickly-reading-lots/)\n\n",
+            "fixedPosition": false
+        },
+        {
+            "id": "3a0f19acd07b4d08944804e1d381576d",
+            "title": "ask: What's the real question﹖",
+            "content": "- attributed to Feynman",
+            "fixedPosition": false
         }
     ]
 }

@@ -150,6 +150,18 @@
             "title": "~ people discussing programming languages are not shipping products",
             "content": "> The people discussing what programming language is best are not shipping products. The people who don't care what programming language they're using are shipping products.\n\n— 📖 Make﹕ Bootstrapper's Handbook",
             "fixedPosition": false
+        },
+        {
+            "id": "53aca96f31c44f3aa15be04023ca7780",
+            "title": "occasionally re-read *Principles of Design*",
+            "content": "<https://www.w3.org/DesignIssues/Principles.html>",
+            "fixedPosition": false
+        },
+        {
+            "id": "76fe593e9b0b4c92bd525db4b7392355",
+            "title": "~ functions should only operate on one abstraction layer",
+            "content": "![](../media/img/how-to-build-software/layer.webp)\n\n— 📖 Clean Code",
+            "fixedPosition": false
         }
     ]
 }
