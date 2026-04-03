@@ -162,6 +162,18 @@
             "title": "~ functions should only operate on one abstraction layer",
             "content": "![](../media/img/how-to-build-software/layer.webp)\n\n— 📖 Clean Code",
             "fixedPosition": false
+        },
+        {
+            "id": "18d55cb0e0ab4c5fb2bd26bb34cd3d77",
+            "title": "I keep underestimating how long it takes to write stuff like a README",
+            "content": "",
+            "fixedPosition": false
+        },
+        {
+            "id": "de55c11b77ab4d0ba50ec6f9f08c8bec",
+            "title": "Demo or Die",
+            "content": "> Once outside the lab, they brought with them a mantra that would go on to influence Scrum deeply. They called it “Demo or Die.”",
+            "fixedPosition": false
         }
     ]
 }

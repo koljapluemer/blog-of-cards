@@ -306,6 +306,24 @@
             "title": "~ first product should be very simple, a single thing requiring only a single marketing channel",
             "content": "",
             "fixedPosition": false
+        },
+        {
+            "id": "115c5fe512364e41bed1d7bcd60c59f7",
+            "title": "follow this for landing page design:",
+            "content": "[ My step-by-step guide to landing pages that convert ](https://www.indiehackers.com/post/my-step-by-step-guide-to-landing-pages-that-convert-9daefb2064)",
+            "fixedPosition": false
+        },
+        {
+            "id": "c1604f5c27c54879b8ae8baa1d5344f7",
+            "title": "~ the more specifically you call people's identity out, the louder they hear your content",
+            "content": "— 📀 Linkedin for Consultants Part 1",
+            "fixedPosition": false
+        },
+        {
+            "id": "9212826099c5460dada54aef42dfe117",
+            "title": "~ don't brand in any way before you prove real demand, because you need to be able to freely pivot",
+            "content": "",
+            "fixedPosition": false
         }
     ]
 }

@@ -66,6 +66,12 @@
             "title": "brand-new day",
             "content": "> Brand-new day: If you’re having a terrible, horrible, no-good, very bad day, get back into bed, pull the covers up, and close your eyes for one minute—then [...]\n\n— 📖 SuperBetter",
             "fixedPosition": false
+        },
+        {
+            "id": "8f181ec3d2034808973c80b4f95e8643",
+            "title": "~ if you don't want to do a (learning) task, do something related in the field",
+            "content": "— idea from [ A simple trick for doing math when you don't want to ](https://www.youtube.com/watch?v=IFck3bNVR2I)",
+            "fixedPosition": false
         }
     ]
 }

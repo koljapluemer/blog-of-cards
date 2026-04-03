@@ -1,5 +1,5 @@
 {
-    "title": "how to edit your writing",
+    "title": "edit your writing",
     "cards": [
         {
             "title": "~ delete all adverbs and adjectives in a paragraph, then restore only the needed ones",
@@ -29,6 +29,12 @@
             "id": "ded512af6c704a998d49678455246e6f",
             "title": "~ use TTS to check on your writing",
             "content": "",
+            "fixedPosition": false
+        },
+        {
+            "id": "d49a7f778ce348e9b9dfe8ca88aa06d0",
+            "title": "which words would you remove for $100 each?",
+            "content": "> When writing a résumé, a handy trick you’ll learn from experts is to ask yourself if there are any words in your first draft that you would be willing to remove for one hundred dollars each. \n\n— 📖 Fail at Everything",
             "fixedPosition": false
         }
     ]
